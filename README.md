@@ -17,10 +17,13 @@
 - CSS
 - Git
 
+## Live version
+
+https://xjokeer.github.io/Capstone_Microverse/
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
 
 ### Setup
 **Step 1 - create a folder in your local pc** <br>
