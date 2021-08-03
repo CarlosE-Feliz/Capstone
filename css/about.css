@@ -1,0 +1,226 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.head_text {
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  margin: 10px 8px 10px;
+}
+
+.head_text h2 {
+  font-family: "Cocogoose", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 8px;
+  color: #ec5242;
+}
+
+.head_text p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 56px;
+  color: #ec5242;
+  margin: 15px 10px;
+  padding: 15px 10px;
+}
+
+.description_text {
+  border: mintcream solid 3px;
+  background-color: #ffffff;
+  font-size: medium;
+  width: 80%;
+  line-height: 25px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px 10px;
+  padding: 20px 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text {
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_me {
+  line-height: 55px;
+  margin: 25px 20px;
+  padding: 10px 25px;
+  border-bottom: #41434b 3px solid;
+}
+
+.prize {
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  align-items: center;
+  border-bottom: #f0f0f0 1px solid;
+}
+
+.prize p {
+  width: 75%;
+  line-height: 35px;
+}
+
+hr {
+  border: solid 3px #ec5242;
+  width: 5%;
+  margin: 0;
+  padding: 0;
+}
+
+.prize-pritzker {
+  justify-content: center;
+  height: 350px;
+  border: #f0f0f0 3px solid;
+  margin: 15px 10px 4px;
+}
+
+.past-events {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px 15px;
+}
+
+.imgs {
+  flex-direction: column;
+}
+
+.img1 {
+  position: relative;
+  display: inline-block;
+  background-color: #ec5242;
+  margin: 25px 10px;
+}
+
+.img1 img {
+  opacity: 0.2;
+}
+
+.text-picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.footer {
+  background-color: rgb(34, 31, 31);
+  color: white;
+  justify-content: center;
+  margin: 10px 10px;
+  padding: 15px 10px;
+}
+
+.d-none {
+  display: none;
+}
+.menu_mobile {
+  display: flex;
+  margin: 20px 10px 0;
+}
+
+.list-mobile {
+    width: 100%;
+    height: 100vh;
+    background: #f0f0f0;
+    display: none;
+}
+
+.list-mobile.active {
+    display: flex;
+}
+
+.list-mobile ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: -50px;
+    top: 45px;
+}
+
+.list-mobile ul li {
+    margin: 10px 12px;
+    font-size: 30px;
+    padding: 10px 12px;
+}
+
+.list-mobile ul li a {
+    text-decoration: none;
+    color: #272a31 ;
+}
+
+.close {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 60vh;
+    top: 9.9px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu_mobile {
+      display: none;
+    }
+
+    .nav-bar {
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      background-color: #ffffff;
+      font-size: 22px;
+      display: flex;
+    }
+
+    .nav-bar p {
+      justify-content: start;
+      margin: 12px 10px;
+    }
+
+    .nav-list {
+      list-style: none;
+      margin: 12px 10px;
+      justify-content: space-between;
+      width: 50%;
+    }
+
+    .nav-list li a {
+      text-decoration: none;
+      color: #ec5242;
+    }
+
+    .social-nav {
+      display: flex;
+      background-color: #41434b;
+      justify-content: flex-end;
+    }
+
+    .section-social a {
+      text-decoration: none;
+      color: #f0f0f0;
+    }
+
+    .section-social {
+      margin: 20px 8px 8px;
+      width: 20%;
+      justify-content: space-between;
+    }
+
+    .imgs {
+      flex-direction: row;
+    }
+}
