@@ -185,6 +185,7 @@ hr {
     background-color: #fff;
     font-size: 22px;
     display: flex;
+    height: 85px;
   }
 
   .nav-bar p {
