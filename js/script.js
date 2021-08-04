@@ -9,7 +9,7 @@ const cards = [
 
     {
         title: 'Gloria Kloter',
-        imgUrl: './media/Gloria.jpeg',
+        imgUrl: './media/Gloria.jpg',
         description:'is a German architect with studies based in Berlin and Bali. His architectural philosophy is to combine and reformulate design methods for each design task. He grew up with the influence of aviation and engineering.'
     },
 
