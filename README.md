@@ -16,6 +16,7 @@
 - HTML
 - CSS
 - Git
+- JavaSCript
 
 ## Live version
 
