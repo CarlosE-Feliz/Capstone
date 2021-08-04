@@ -212,6 +212,7 @@ br {
   text-decoration: none;
   color: #fff;
   text-align: center;
+  display: inline;
 }
 
 .more-info:hover {
@@ -228,6 +229,10 @@ br {
   body {
     background: #f0f0f0;
     background: url(/media/diseno-fondo-arquitectura.jpg);
+  }
+
+  .more-info {
+    display: none;
   }
 
   .head_text {
