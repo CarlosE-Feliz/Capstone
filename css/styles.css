@@ -20,7 +20,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   padding: 25px;
-  background: url(/media/fondo-negro.jpg);
+  background: url(/media/fondonegro.jpg);
   background-repeat: repeat-y;
 }
 
@@ -228,7 +228,7 @@ br {
 @media only screen and (min-width: 768px) {
   body {
     background: #f0f0f0;
-    background: url(/media/diseno-fondo-arquitectura.jpg);
+    background: url(/media/disenofondo.jpg);
   }
 
   .more-info {
@@ -255,7 +255,7 @@ br {
 
   .description_text {
     width: 40%;
-    margin: 35px 0;
+    margin: 35px 55px;
     font-size: 25px;
     color: #ec5242;
     text-shadow: 1px 1px #272a31;
@@ -304,7 +304,7 @@ br {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
-    background: url(/media/fondo-negro.jpg);
+    background: url(/media/fondonegro.jpg);
     background-repeat: round;
     margin: 25px 10px;
   }
