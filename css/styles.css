@@ -165,7 +165,7 @@ br {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: static;
+  position: absolute;
   left: -50px;
   top: 45px;
 }
