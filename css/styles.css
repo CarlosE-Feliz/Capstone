@@ -1,4 +1,3 @@
-@import url("//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 @font-face {
@@ -19,14 +18,14 @@ body {
   display: grid;
   grid-template-columns: auto;
   padding: 10px;
-  justify-content: center;
+  gap: 12px;
 }
 
 .grid_Winer {
   display: grid;
   grid-template-columns: auto;
   padding: 25px;
-  background: url(./media/fondonegro.jpg);
+  background: url(/media/fondonegro.jpg);
   background-repeat: repeat-y;
 }
 
@@ -83,12 +82,16 @@ body {
 }
 
 .child {
-  justify-content: center;
-  align-items: center;
-  background-color: #41434b;
-  margin: 9px 0;
-  width: 100%;
-  box-shadow: rgb(77, 77, 77, 0.5) 5px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    height: auto;
+    background: #41434b;
+    padding: 12px;
+    transition: border 0.8s;
 }
 
 .child h3 {
@@ -270,12 +273,13 @@ br {
   }
 
   .about_them {
-    padding: 40px 0 15px 40px;
-    font-size: medium;
-    line-height: 20px;
-    width: 96.5%;
-    margin: 10px 12px 40px 12px;
-    height: 400px;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    gap: 12px;
   }
 
   .grid {
@@ -289,13 +293,12 @@ br {
 
   .child {
     flex-direction: column;
-    opacity: 1;
-    box-shadow: none;
-    width: 98%;
+    height: 200px;
+    width: 80%;
   }
 
   .more_info {
-    width: 450%;
+    width: 550%;
     margin: 15px 20px;
     display: flex;
     justify-content: center;
