@@ -97,7 +97,6 @@ body {
   width: 100%;
   height: auto;
   background: #41434b;
-  padding: 12px;
   transition: border 0.8s;
 }
 
@@ -294,14 +293,15 @@ br {
     grid-template-columns: auto auto auto auto auto auto;
     padding: 10px 20px;
     margin: 20px 0 15px;
-    width: 100%;
+    width: 98%;
     justify-content: unset;
+    text-align: center;
   }
 
   .child {
     flex-direction: column;
     height: 200px;
-    width: 80%;
+    width: 98%;
   }
 
   .more_info {
@@ -326,8 +326,6 @@ br {
   }
 
   .winer_child1 {
-    width: 50%;
-    margin: 55px 40px;
     font-size: 20px;
   }
 
@@ -337,8 +335,9 @@ br {
 
   .nav-bar {
     align-items: center;
+    justify-content: center;
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: #f8f8f8;
     font-size: 22px;
     display: flex;
     height: 85px;
@@ -347,6 +346,7 @@ br {
   .nav-bar p {
     justify-content: start;
     margin: 12px 10px;
+    padding: 20px 100px;
   }
 
   .nav-list {

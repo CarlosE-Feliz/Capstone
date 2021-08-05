@@ -34,10 +34,10 @@ body {
 }
 
 .description_text {
-  border: mintcream solid 3px;
+  border: rgb(200, 202, 201) solid 3px;
   background-color: #fff;
   font-size: medium;
-  width: 80%;
+  width: 70%;
   line-height: 25px;
   font-family: "Times New Roman", Times, serif;
   margin: 20px 10px;
@@ -82,9 +82,8 @@ hr {
 
 .prize-pritzker {
   justify-content: center;
-  height: 350px;
   border: #f0f0f0 3px solid;
-  margin: 15px 10px 4px;
+  margin: 15px 10px 14px;
 }
 
 .past-events {
@@ -183,7 +182,7 @@ hr {
   .nav-bar {
     align-items: center;
     width: 100%;
-    background-color: #fff;
+    background-color: #f8f8f8;
     font-size: 22px;
     display: flex;
     height: 85px;
@@ -192,6 +191,7 @@ hr {
   .nav-bar p {
     justify-content: start;
     margin: 12px 10px;
+    padding: 20px 100px;
   }
 
   .nav-list {
@@ -199,8 +199,8 @@ hr {
     margin: 12px 10px;
     justify-content: flex-end;
     width: 100%;
-    gap: 100px;
-    padding: 1rem;
+    gap: 80px;
+    padding: 5rem;
   }
 
   .section-social a {
@@ -210,7 +210,11 @@ hr {
 
   .nav-list li a {
     text-decoration: none;
-    color: #ec5242;
+    color: #41434b;
+  }
+
+  .nav-list li a:hover {
+    color: #d4311f;
   }
 
   .social-nav {
