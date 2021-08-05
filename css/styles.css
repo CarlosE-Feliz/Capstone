@@ -15,9 +15,13 @@ body {
 }
 
 .redborder {
-  border: #ec5242 2px solid;
+  border: #ec5242 3px solid;
   cursor: pointer;
   margin-right: 55px;
+}
+
+.redborder a {
+  margin: 25px 35px;
 }
 
 .grid_Winer {
@@ -332,7 +336,7 @@ br {
   }
 
   .nav-bar {
-    justify-content: space-between;
+
     align-items: center;
     width: 100%;
     background-color: #f0f0f0;
@@ -349,8 +353,10 @@ br {
   .nav-list {
     list-style: none;
     margin: 12px 10px;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 55px;
+    padding: 1rem;
   }
 
   .social-nav {
