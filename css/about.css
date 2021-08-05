@@ -10,6 +10,10 @@ body {
   margin: 10px 8px 10px;
 }
 
+.disapear {
+  display: none;
+}
+
 .head_text h2 {
   font-family: "Cocogoose", sans-serif;
   font-size: 1.7rem;
