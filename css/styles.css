@@ -82,16 +82,16 @@ body {
 }
 
 .child {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    width: 100%;
-    height: auto;
-    background: #41434b;
-    padding: 12px;
-    transition: border 0.8s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  height: auto;
+  background: #41434b;
+  padding: 12px;
+  transition: border 0.8s;
 }
 
 .child h3 {
