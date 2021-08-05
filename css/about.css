@@ -181,7 +181,6 @@ hr {
   }
 
   .nav-bar {
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: #fff;
@@ -198,8 +197,10 @@ hr {
   .nav-list {
     list-style: none;
     margin: 12px 10px;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 55px;
+    padding: 1rem;
   }
 
   .section-social a {
