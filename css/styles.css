@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
-
-@font-face {
-  font-family: "Cocogoose Pro trial";
-  src: url("../fonts/Cocogoose\ Pro-trial.ttf");
-}
-
 body {
   background-color: #f0f0f0;
   margin: 0;
@@ -25,7 +18,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   padding: 25px;
-  background: url(/media/fondonegro.jpg);
+  background: url("../media/fondonegro.jpg");
   background-repeat: repeat-y;
 }
 
@@ -78,7 +71,7 @@ body {
   padding: 40px 30px;
   font-size: medium;
   line-height: 20px;
-  background: url(/media/arquiBack.jpg);
+  background: url("../media/arquiBack.jpg");
 }
 
 .child {
@@ -237,7 +230,7 @@ br {
 @media only screen and (min-width: 768px) {
   body {
     background: #f0f0f0;
-    background: url(/media/disenofondo.jpg);
+    background-image: url("../media/disenofondo.jpg");
   }
 
   .more-info {
@@ -313,8 +306,8 @@ br {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
-    background: url(/media/fondonegro.jpg);
-    background-repeat: round;
+    background-image: url("../media/fondonegro.jpg");
+    background-repeat: inherit;
     margin: 25px 10px;
   }
 
@@ -388,7 +381,7 @@ br {
 
   .img_footer {
     justify-content: space-between;
-    width: 50%;
+    width: 80%;
   }
 
   .footer_ {
