@@ -16,11 +16,15 @@
 - HTML
 - CSS
 - Git
+- JavaSCript
+
+## Live version
+
+https://xjokeer.github.io/Capstone_Microverse/
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
 
 ### Setup
 **Step 1 - create a folder in your local pc** <br>
@@ -46,6 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - ![](https://img.shields.io/badge/Microverse-blueviolet)
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 

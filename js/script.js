@@ -9,14 +9,14 @@ const cards = [
 
     {
         title: 'Gloria Kloter',
-        imgUrl: './media/Gloria.jpeg',
-        description:'is a German architect with studies based in Berlin and Bali. His architectural philosophy is to combine and reformulate design methods for each design task. He grew up with the influence of aviation and engineering.'
+        imgUrl: './media/Gloria.jpg',
+        description:'is a German architect with studies based in Berlin and Bali.'
     },
 
     {
         title: 'Alexis Dornier',
         imgUrl: './media/alexis-dornier.jpg',
-        description: 'is recognized by top magazines worldwide, she has been seen in several magazines and blogs, which ranked her as the most suitable and reliable architect for any given project. Thanks to more than 15 years of national and international architectural and design experience, Kloter can design any large or small project at a given time.'
+        description: 'is recognized by top magazines worldwide, she has been seen in several magazines and blogs, which ranked her as the most suitable and reliable architect for any given project.'
     },
 
     {
@@ -25,17 +25,6 @@ const cards = [
         description:'is a Mexican architect founder of Tatiana Bilbao ESTUDIO founded in 2004.'
     },
 
-    {
-        title: 'Raffaello Rosselli',
-        imgUrl: './media/raffaello_rosselli.jpg',
-        description: 'redefines and reinvents materials, including those that would otherwise be overlooked. The design process is based on material experimentation, which influences design practice at all scales, from small pavilions to large-scale developments.'
-    },
-
-    {
-        title: 'Ma Yansong',
-        imgUrl: './media/01_ma-yansong_full.jpg',
-        description:'Founder of the innovative architecture firm MAD Architects, Ma Yansong (born November 26, 1975) has helped give China a name on the international architectural scene.'
-    },
 ]
 
 
@@ -58,6 +47,15 @@ createCards();
 
 
 const menu = document.querySelector('.open');
-menu.addEventListener('click', () => {document.getElementById('mobile-menu').classList.add('active') })
+menu.addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.add('active');
+    document.getElementById('menu_mobile').classList.add('disapear'); 
+})
 const close = document.querySelector('.close');
-close.addEventListener('click', () => {document.getElementById('mobile-menu').classList.remove('active')})
+close.addEventListener('click', () => {
+    document.getElementById('mobile-menu').classList.remove('active');
+    document.getElementById('menu_mobile').classList.remove('disapear'); 
+
+})
+const ulClose = document.querySelector('.ul-close');
+ulClose.addEventListener('click', () => {document.getElementById('mobile-menu').classList.remove('active')})
