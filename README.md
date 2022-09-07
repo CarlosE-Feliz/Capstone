@@ -1,4 +1,4 @@
-# Capstone_Microverse
+# Capstone
 
 
 ![image](https://user-images.githubusercontent.com/74747182/128095687-b4abd73e-f383-4b99-9824-8e947b4b644d.png)
